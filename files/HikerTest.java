@@ -29,4 +29,11 @@ public class HikerTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    void  number_of_elements() {
+        int expected = 6;
+        int actual = Hiker.numberOfElements(new int[]{6, 9, 15, -2, 92, 11});
+        assertEquals(expected, actual);
+    }
+
 }

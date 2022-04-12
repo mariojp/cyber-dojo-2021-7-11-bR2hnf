@@ -24,4 +24,8 @@ public class Hiker {
         }
         return max;
     }
+
+    public static int numberOfElements(int[] sequence) {
+        return sequence.length;
+    }
 }
