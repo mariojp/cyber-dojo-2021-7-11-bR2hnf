@@ -14,4 +14,12 @@ public class HikerTest {
         int actual = Hiker.answer();
         assertEquals(expected, actual);
     }
+
+    @Test
+    void min_value_sequence() {
+        int expected = -2;
+        int actual = Hiker.minimumValue(new int[]{6, 9, 15, -2, 92, 11});
+        assertEquals(expected, actual);
+    }
+
 }
