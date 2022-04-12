@@ -22,4 +22,11 @@ public class HikerTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    void max_value_sequence() {
+        int expected = 92;
+        int actual = Hiker.maximumValue(new int[]{6, 9, 15, -2, 92, 11});
+        assertEquals(expected, actual);
+    }
+
 }

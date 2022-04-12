@@ -14,4 +14,14 @@ public class Hiker {
         }
         return min;
     }
+
+    public static int maximumValue(int[] sequence) {
+        int max = Integer.MIN_VALUE;
+        for(int i : sequence ){
+            if( i > max) {
+                max = i;
+            }
+        }
+        return max;
+    }
 }
