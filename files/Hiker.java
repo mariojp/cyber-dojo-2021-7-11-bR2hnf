@@ -28,4 +28,12 @@ public class Hiker {
     public static int numberOfElements(int[] sequence) {
         return sequence.length;
     }
+
+    public static double averageValue(int[] sequence) {
+        double sum = 0;
+        for(int i : sequence ){
+            sum += i;
+        }
+        return sum/sequence.length;
+    }
 }

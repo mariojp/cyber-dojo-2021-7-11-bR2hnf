@@ -36,4 +36,11 @@ public class HikerTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    void  average_value() {
+        double expected = 21.833333;
+        double actual = Hiker.averageValue(new int[]{6, 9, 15, -2, 92, 11});
+        assertEquals(expected, actual,0.1);
+    }
+
 }
